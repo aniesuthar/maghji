@@ -749,6 +749,14 @@ a, a:hover {
 	.mry-menu .mry-info-box-frame {
 		display: none;
 	}
+
+	.mry-app .mry-top-panel .mry-logo-frame .mry-logo {
+		width: 80px;
+	}
+
+	.mry-magic-cursor{
+		display: none;
+	}
 }
 
 /* Frame after 550px */
