@@ -4,10 +4,15 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
 const app = express();
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.post('/send', async (req, res) => {
+app.get('/api', (req, res) => {
+    res.send('Workingggggg!');
+});
+
+app.post('/api/send', async (req, res) => {
     try {
         let errors = '';
 
@@ -107,5 +112,14 @@ app.post('/send', async (req, res) => {
         res.status(500).json({ success: false, error: 'Failed to send email' });
     }
 });
+
+console.log('Serverless function started...');
+
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on ${PORT}`);
+  });
 
 module.exports = app;

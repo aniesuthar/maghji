@@ -2,14 +2,14 @@
   "name": "mid-html",
   "version": "1.0.0",
   "description": "",
-  "main": "api/send.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/send.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https//github.com/aniesuthar/maghji.git"
-  },
+"repository": {
+  "type": "git",
+  "url": "https://github.com/aniesuthar/maghji.git"
+},
   "author": "Anil Suthar",
   "license": "ISC",
   "dependencies": {
