@@ -121,7 +121,7 @@ if (!$errors) {
 	==================================== */
 
 	// Setup for site owner
-	$to = "websolutions.ultimate@gmail.com"; // Your email goes here	
+	$to = "maghjiironscompany@gmail.com"; // Your email goes here	
 	$subject = "Request";
 	$headers = "From: Maghji <replyto@yourdomain.com>";	
 	$message = "Request is arrived with the details below." . "\n\n";
