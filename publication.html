@@ -22,7 +22,7 @@
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style-light.css">
 
-	<title>Maghji</title>
+	<title>Maghji - Bhadrecha Metalworks Co.</title>
 
 </head>
 

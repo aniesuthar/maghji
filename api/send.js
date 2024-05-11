@@ -106,10 +106,12 @@ app.post('/api/send', async (req, res) => {
             </div>
         `;
         res.status(200).send(successHtml);
+        
         // Redirect after 5 seconds
         setTimeout(() => {
             res.redirect('https://maghji.vercel.app/contact.html');
         }, 2000);
+
     } catch (error) {
         // Error response
         console.error('Error:', error);
